@@ -126,7 +126,22 @@ h3 {
 }
 
 
+.contenedorimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.ofertas {
+    height: 147px;
+    width: 147px;
+    margin: 20px;
+}
+.img h1 {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
 
 
 footer {
