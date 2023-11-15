@@ -14,7 +14,7 @@
         <title>Mercado Libre</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    
         <header class="nav-bar">
             <div class="caja-de-busquedas">
                 <div class="linea-alta">
@@ -28,16 +28,10 @@
                     <div class="buscador">
                         <form class="nav-search" action="https://www.mercadolibre.com.ar/jm/search" method="GET" role="search">
                             <label class="nav-header-visually-hidden" for="cb1-edit"></label>
-                            <input type="text" class="nav-search-input" id="cb1-edit" aria-label="Ingresá lo que quieras encontrar" name="as_word" placeholder="Buscar productos, marcas y más…" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" value="" aria-activedescendant="" aria-controls="cb1-list" aria-autocomplete="list" aria-expanded="false" role="combobox">
-                            <button type="submit" class="nav-search-btn">
-                                <div role="img" aria-label="Buscar" class="nav-icon-search"></div>
+                            <input type="text" id="cb1-edit" aria-label="Ingresá lo que quieras encontrar" name="as_word" placeholder="Buscar productos, marcas y más…" maxlength="120" autocapitalize="off" autocorrect="off" spellcheck="false" autocomplete="off" value="" aria-activedescendant="" aria-controls="cb1-list" aria-autocomplete="list" aria-expanded="false" role="combobox">
+                            <button type="submit">
+                                <div role="img" aria-label="Buscar"></div>
                             </button>
-                            <div class="sb-suggestions" id="sb-suggestions-1" aria-hidden="true" style="top: 40px; width: 340px; position: absolute;">
-                                <ul class="sb-suggestions__list" role="listbox" id="cb1-list"></ul>
-                                <div class="sb-suggestions__wrapper--additional">
-                                    <ul class="sb-suggestions__list--additional"></ul>
-                                </div>
-                            </div>
                         </form>
                     </div>
                     <div class="disney-star">
@@ -47,45 +41,41 @@
                 </div>
                 <div class="linea-baja">
                     <div class="localidad">
-                        <div class="nav-menu-item">
-                            <a class="nav-menu-cp nav-menu-cp-logged" data-js="cp" href="https://www.mercadolibre.com.ar/navigation/addresses-hub?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2F" data-modal-action="true" aria-expanded="false" aria-haspopup="true">
-                            <span class="nav-menu-cp-send">Enviar a</span>
-                            <span class="nav-menu-link-cp"> Capital Federal</span></a>
+                        <div>
+                            <a data-js="cp" href="https://www.mercadolibre.com.ar/navigation/addresses-hub?go=https%3A%2F%2Fwww.mercadolibre.com.ar%2F" data-modal-action="true" aria-expanded="false" aria-haspopup="true">
+                            <span>Enviar a</span>
+                            <span> Capital Federal</span></a>
                         </div>
                     </div>
                     <div class="menu">
                         <div class="nav-menu">
                             <ul class="listado">
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/categorias#nav-header" class="nav-menu-categories-link">Categorías</a>
-                                    <div class="nav-categs">
-                                        <ul class="nav-categs-departments"></ul>
-                                        <div class="nav-categs-detail"></div>
-                                    </div>
+                                    <a href="https://www.mercadolibre.com.ar/categorias#nav-header">Categorías</a>
                                 </li>
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/ofertas#nav-header" class="nav-menu-item-link">Ofertas</a>
+                                    <a href="https://www.mercadolibre.com.ar/ofertas#nav-header">Ofertas</a>
                                 </li>
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/gz/home/navigation#nav-header" class="nav-menu-item-link">Historial</a>
+                                    <a href="https://www.mercadolibre.com.ar/gz/home/navigation#nav-header">Historial</a>
                                 </li>
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/ofertas/supermercadolibre#nav-header" class="nav-menu-item-link">Supermercado</a>
+                                    <a href="https://www.mercadolibre.com.ar/ofertas/supermercadolibre#nav-header">Supermercado</a>
                                 </li>
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/c/ropa-y-accesorios#nav-header" class="nav-menu-item-link">Moda</a>
+                                    <a href="https://www.mercadolibre.com.ar/c/ropa-y-accesorios#nav-header">Moda</a>
                                 </li>
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/syi/core/list#nav-header" class="nav-menu-item-link">Vender</a>
+                                    <a href="https://www.mercadolibre.com.ar/syi/core/list#nav-header">Vender</a>
                                 </li>
                                 <li class="listado-items">
-                                    <a href="https://www.mercadolibre.com.ar/ayuda#nav-header" class="nav-menu-item-link">Ayuda</a>
+                                    <a href="https://www.mercadolibre.com.ar/ayuda#nav-header">Ayuda</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="cuenta">
-                        <nav class="listado">
+                    <div class="perfil">
+                        <nav class="cuenta">
                             <a href="https://www.mercadolibre.com.ar/registration?confirmation_url=https%3A%2F%2Fwww.mercadolibre.com.ar%2F#nav-header" class="listado-intems" data-link-id="registration" rel="nofollow">Creá tu cuenta</a>
                             <a href="https://www.mercadolibre.com/jms/mla/lgz/login?platform_id=ML&amp;go=https%3A%2F%2Fwww.mercadolibre.com.ar%2F&amp;loginType=explicit#nav-header" class="listado-intems" data-link-id="login" rel="nofollow">Ingresá</a>
                             <a href="https://myaccount.mercadolibre.com.ar/purchases/list#nav-header" class="listado-intems" data-link-id="purchases" rel="nofollow">Mis compras</a>
@@ -97,8 +87,6 @@
                 </div>
             </div>
         </header>
-
-
 
 
 
