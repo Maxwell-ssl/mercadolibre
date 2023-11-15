@@ -19,7 +19,6 @@ body{
 }
 
 .nav-bar {
-    padding: 15px;
     background-color: #fff159;
     height: 100px;
     width: auto;
@@ -38,10 +37,13 @@ body{
 
 .linea-alta {
     display: flex;
+    padding: 25px;
 }
 
 .linea-baja {
     display: flex;
+    padding: 15px;
+    
 }
 
 .logo {
@@ -63,21 +65,37 @@ body{
 .disney-star img {
     margin: 0px;
     text-indent: -999px;
-    height: 45px;
-    width: auto;
+    max-width: 340px;
+    max-height: 39px;
     background-repeat: no-repeat;
+}
+
+.nav-menu{
+    text-decoration: none;
 }
 
 .listado {
     text-decoration: none;
     display: flex;
+    grid-area: nav-center-bottom;
+    padding: 4px;
+    margin: -4px;
+    height: 3px;
 }
 
 .listado-items {
     margin: 0px 10px;
 }
 
+.perfil {
+    text-decoration: none;
+    display: flex;
+    margin: 0px 10px;
+}
 
+.cuenta {
+    color: #3483fa;
+}
 
 
 
